@@ -9,7 +9,8 @@ export default function Projects() {
           <h1>Under Construction!</h1>
           <p>
             Please check back soon, in the meantime my resume should have my
-            latest projects available for viewing!
+            latest projects available for viewing! Feel free to reach out if you
+            have questions.
           </p>
         </div>
       </div>
