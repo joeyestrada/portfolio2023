@@ -30,7 +30,7 @@
   }
 
   img {
-    max-width: 84%;
+    // max-width: 84%;
     max-height: 350px;
     border: 3px solid white ;
   }
@@ -53,7 +53,8 @@
   margin: 0px 100px 100px 100px;
 
   .flat-button {
-    margin-right: 70%;
+    width: 22%;
+    text-align: center;
   }
 }
 
