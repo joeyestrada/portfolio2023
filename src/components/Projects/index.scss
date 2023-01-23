@@ -1,0 +1,76 @@
+.about-page {
+  .flat-button {
+    display: flex;
+    background-color: rgb(100, 36, 92);
+    padding: 3%;
+    margin-top: 3%;
+  }
+}
+
+.current-project {
+  display: flex;
+  margin: -435px -100px -100px 550px;
+  width: 120%;
+
+  animation-name: slide-right;
+  animation-duration: 3s;
+
+  h2 {
+    letter-spacing: 0;
+    color: white;
+    margin-top: -4%;
+  }
+
+  ul {
+    color: white;
+    font-size: 13px;
+    list-style-type:circle;
+    margin-left: -38px;
+    margin-top: -15px;
+  }
+
+  img {
+    max-width: 84%;
+    max-height: 350px;
+    border: 3px solid white ;
+  }
+}
+
+.hide {
+  animation-name: fade-out;
+  animation-duration: 1s;
+}
+
+.group1 {
+  display: flex;
+  
+  div {
+    margin-right: 20px;
+  }
+}
+
+.buttons {
+  margin: 0px 100px 100px 100px;
+
+  .flat-button {
+    margin-right: 70%;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(1500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
