@@ -19,7 +19,7 @@
 .gear {
   position: absolute;
   margin: -150px 57px;
-  width: 30%;
+  max-width: 230px;
   animation-name: spin;
   animation-duration: 10000ms;
   animation-iteration-count: infinite;
@@ -102,5 +102,48 @@ h2 {
   
   div:first-child {
     padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1::before,
+  .home-page h1::after {
+    display: none;
+  }
+
+  .home-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+
+      h1 {
+        font-size: 50px;
+      }
+
+      h2 {
+        font-size: 12.5px;
+      }
+    }
+  }
+
+  .gear {
+    max-height: 120px;
+    top: 120px;
+    left: 20px;
+  }
+
+  .flat-button {
+    display: block;
+    position: absolute;
+    top: 410px;
+    left: 15px;
+  }
+
+  .border-wrap {
+    margin-left: 15px;
   }
 }
